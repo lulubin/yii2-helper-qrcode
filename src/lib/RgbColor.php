@@ -1,10 +1,10 @@
 <?php
 namespace lulubin\qrcode\lib;
 
+use yii\base\BaseObject;
 use yii\base\InvalidParamException;
-use yii\base\Object;
 
-class RgbColor extends Object
+class RgbColor extends BaseObject
 {
     /**
      * @var array

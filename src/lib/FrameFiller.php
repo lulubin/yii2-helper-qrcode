@@ -1,9 +1,9 @@
 <?php
 namespace lulubin\qrcode\lib;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 
-class FrameFiller extends Object
+class FrameFiller extends BaseObject
 {
     public $width;
     public $frame;
@@ -13,7 +13,6 @@ class FrameFiller extends Object
     public $bit;
 
     /**
-     * @param array $width
      * @param $frame
      */
     public function __construct($width, &$frame)

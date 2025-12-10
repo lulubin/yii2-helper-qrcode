@@ -1,10 +1,10 @@
 <?php
 namespace lulubin\qrcode\lib;
 
+use yii\base\BaseObject;
 use yii\base\InvalidParamException;
-use yii\base\Object;
 
-class Code extends Object
+class Code extends BaseObject
 {
     /**
      * @var int version
